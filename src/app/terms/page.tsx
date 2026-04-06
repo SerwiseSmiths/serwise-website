@@ -194,9 +194,76 @@ export default function TermsPage() {
         </div>
       </section>
 
-      {/* 8. Chat */}
+      {/* 8. Wallet */}
       <section className="ps">
         <div className="ps-num">Section 08</div>
+        <h2 className="ps-title">Serwise Wallet</h2>
+
+        <div className="ps-sub">8.1 Overview</div>
+        <p className="ps-body">
+          Serwise provides an <strong>in-app Wallet</strong> that allows users to add money and use it for payments within the
+          Platform. The Wallet is designed exclusively for transactions on Serwise.
+        </p>
+
+        <div className="ps-sub">8.2 Adding Funds</div>
+        <p className="ps-body">Users may add funds to their Wallet using the following methods:</p>
+        <ul className="ps-ul">
+          <li>UPI</li>
+          <li>Debit / Credit Cards</li>
+          <li>Net Banking</li>
+          <li>Any other payment method made available on the Platform</li>
+        </ul>
+
+        <div className="ps-sub">8.3 Permitted Uses</div>
+        <p className="ps-body">Wallet balance may be used to pay for:</p>
+        <ul className="ps-ul">
+          <li>Services booked through the Platform</li>
+          <li>Subscriptions (AMC)</li>
+          <li>Approved quotations</li>
+        </ul>
+        <p className="ps-body">
+          Users may also receive cashback, discounts, or refunds credited directly to their Wallet balance as applicable.
+        </p>
+
+        <div className="ps-sub">8.4 Closed-Loop System &amp; No Withdrawal</div>
+        <div className="ps-note">
+          The Serwise Wallet is a <strong>closed-loop system</strong>. Wallet funds are usable exclusively within the Serwise
+          Platform. <strong>Withdrawals to any external bank account, UPI handle, or payment instrument are not permitted.</strong>
+        </div>
+
+        <div className="ps-sub">8.5 Not a Banking Product</div>
+        <p className="ps-body">
+          The Serwise Wallet is <strong>not a bank account</strong> and is not regulated as a payment instrument under the Payment
+          and Settlement Systems Act or any banking regulation. It does not:
+        </p>
+        <ul className="ps-ul">
+          <li>Earn interest on the balance held</li>
+          <li>Provide any investment or savings features</li>
+          <li>Guarantee returns of any kind</li>
+        </ul>
+
+        <div className="ps-sub">8.6 Account Security</div>
+        <p className="ps-body">
+          Users are solely responsible for maintaining the security of their account credentials. Serwise shall not be liable for
+          any unauthorized use of the Wallet arising from the user's failure to secure their login information.
+        </p>
+
+        <div className="ps-sub">8.7 Suspension &amp; Reversal</div>
+        <p className="ps-body">
+          Serwise reserves the right to <strong>suspend Wallet access</strong> or <strong>reverse any credited amounts</strong> in
+          cases of:
+        </p>
+        <ul className="ps-ul">
+          <li>Suspected fraud or unauthorized transactions</li>
+          <li>Misuse of the Wallet or Platform</li>
+          <li>Violation of these Terms &amp; Conditions</li>
+          <li>Any direction from a regulatory or law enforcement authority</li>
+        </ul>
+      </section>
+
+      {/* 9. Chat */}
+      <section className="ps">
+        <div className="ps-num">Section 09</div>
         <h2 className="ps-title">Communication &amp; Chat Feature</h2>
         <p className="ps-body">
           The Platform provides an <strong>in-app chat feature</strong> to facilitate communication between Customers and service providers.
@@ -216,9 +283,9 @@ export default function TermsPage() {
         </p>
       </section>
 
-      {/* 9. Customer Responsibilities */}
+      {/* 10. Customer Responsibilities */}
       <section className="ps">
-        <div className="ps-num">Section 09</div>
+        <div className="ps-num">Section 10</div>
         <h2 className="ps-title">Customer Responsibilities</h2>
         <p className="ps-body">Customers agree to:</p>
         <ul className="ps-ul">
@@ -231,9 +298,9 @@ export default function TermsPage() {
         </ul>
       </section>
 
-      {/* 10. Risks */}
+      {/* 11. Risks */}
       <section className="ps">
-        <div className="ps-num">Section 10</div>
+        <div className="ps-num">Section 11</div>
         <h2 className="ps-title">Customer Risks &amp; Disclaimer</h2>
         <p className="ps-body">Customers acknowledge that:</p>
         <ul className="ps-ul">
@@ -243,9 +310,9 @@ export default function TermsPage() {
         </ul>
       </section>
 
-      {/* 11. Bookings */}
+      {/* 12. Bookings */}
       <section className="ps">
-        <div className="ps-num">Section 11</div>
+        <div className="ps-num">Section 12</div>
         <h2 className="ps-title">Bookings, Cancellation &amp; Completion</h2>
 
         <div className="ps-sub">11.1 Booking Process</div>
@@ -272,9 +339,9 @@ export default function TermsPage() {
         </ul>
       </section>
 
-      {/* 12. Disclaimer */}
+      {/* 13. Disclaimer */}
       <section className="ps">
-        <div className="ps-num">Section 12</div>
+        <div className="ps-num">Section 13</div>
         <h2 className="ps-title">Important Legal Disclaimer</h2>
         <div className="ps-warning">
           <p style={{ marginBottom: 8 }}>
@@ -289,9 +356,9 @@ export default function TermsPage() {
         </div>
       </section>
 
-      {/* 13. Contact */}
+      {/* 14. Contact */}
       <section className="ps">
-        <div className="ps-num">Section 13</div>
+        <div className="ps-num">Section 14</div>
         <h2 className="ps-title">Contact Information</h2>
         <ul className="ps-ul">
           <li><strong>Platform Operator:</strong> Monil Dineshkumar Shah</li>
@@ -301,9 +368,9 @@ export default function TermsPage() {
         </ul>
       </section>
 
-      {/* 14. Acknowledgment */}
+      {/* 15. Acknowledgment */}
       <section className="ps">
-        <div className="ps-num">Section 14</div>
+        <div className="ps-num">Section 15</div>
         <h2 className="ps-title">Acknowledgment &amp; Acceptance</h2>
         <div className="ps-note">
           By using the Serwise Platform, you confirm that you have read, understood, and agreed to these Terms &amp; Conditions,

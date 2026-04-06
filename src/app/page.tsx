@@ -74,7 +74,8 @@ export default function Home() {
           position: relative;
           width: 100%;
           background: #000000;
-          overflow: hidden;
+          overflow-x: hidden;
+          overflow-y: visible;
         }
 
         /* ════════════════════════════════
@@ -87,7 +88,7 @@ export default function Home() {
         @media (min-width: 769px) {
 
           .canvas {
-            height: 100dvh;
+            min-height: 100dvh;
           }
 
           /* Background: scaled to cover full viewport */
@@ -215,7 +216,7 @@ export default function Home() {
         @media (max-width: 768px) {
 
           .canvas {
-            height: 926px;
+            min-height: 926px;
           }
 
           /* Background: 1257.47×926.01, left:-418 */
@@ -293,11 +294,11 @@ export default function Home() {
             z-index: 10;
           }
 
-          /* Marquee strip: 1717px wide, centred, top:764 */
+          /* Marquee strip: full-width, top:764 */
           .marquee-strip {
             position: absolute;
-            left: calc(50% - 1717px / 2 - 404.5px);
-            width: 1717px;
+            left: 0;
+            width: 100%;
             height: 40px;
             top: 764px;
             z-index: 10;

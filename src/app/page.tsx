@@ -58,10 +58,11 @@ export default function Home() {
 
       {/* ── 7. Footer links ──────────────────────────────────────────────── */}
       <footer className="footer">
-        <Link href="/terms"   className="footer-link">Terms &amp; Conditions</Link>
-        <Link href="/privacy" className="footer-link">Privacy Policy</Link>
-        <Link href="/refund"  className="footer-link">Refund Policy</Link>
-        <Link href="/contact" className="footer-link">Contact Us</Link>
+        <Link href="/terms"          className="footer-link">Terms &amp; Conditions</Link>
+        <Link href="/privacy"        className="footer-link">Privacy Policy</Link>
+        <Link href="/refund"         className="footer-link">Refund Policy</Link>
+        <Link href="/delete-account" className="footer-link">Delete Account</Link>
+        <Link href="/contact"        className="footer-link">Contact Us</Link>
       </footer>
 
       {/* ── Styles ───────────────────────────────────────────────────────── */}

@@ -208,10 +208,11 @@ export default function ContactPage() {
               <span>© {new Date().getFullYear()} Serwise. All rights reserved.</span>
             </div>
             <nav className="contact-footer-links">
-              <Link href="/terms" className="contact-footer-link">Terms &amp; Conditions</Link>
-              <Link href="/privacy" className="contact-footer-link">Privacy Policy</Link>
-              <Link href="/refund" className="contact-footer-link">Refund Policy</Link>
-              <Link href="/contact" className="contact-footer-link">Contact Us</Link>
+              <Link href="/terms"          className="contact-footer-link">Terms &amp; Conditions</Link>
+              <Link href="/privacy"        className="contact-footer-link">Privacy Policy</Link>
+              <Link href="/refund"         className="contact-footer-link">Refund Policy</Link>
+              <Link href="/delete-account" className="contact-footer-link">Delete Account</Link>
+              <Link href="/contact"        className="contact-footer-link">Contact Us</Link>
             </nav>
           </div>
         </footer>

@@ -64,10 +64,11 @@ export default function PolicyLayout({
               <span>© {new Date().getFullYear()} Serwise. All rights reserved.</span>
             </div>
             <nav className="policy-footer-links">
-              <Link href="/terms"   className="policy-footer-link">Terms &amp; Conditions</Link>
-              <Link href="/privacy" className="policy-footer-link">Privacy Policy</Link>
-              <Link href="/refund"  className="policy-footer-link">Refund Policy</Link>
-              <Link href="/contact" className="policy-footer-link">Contact Us</Link>
+              <Link href="/terms"          className="policy-footer-link">Terms &amp; Conditions</Link>
+              <Link href="/privacy"        className="policy-footer-link">Privacy Policy</Link>
+              <Link href="/refund"         className="policy-footer-link">Refund Policy</Link>
+              <Link href="/delete-account" className="policy-footer-link">Delete Account</Link>
+              <Link href="/contact"        className="policy-footer-link">Contact Us</Link>
             </nav>
           </div>
         </footer>
